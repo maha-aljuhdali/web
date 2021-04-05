@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+    <title>ABOUT US</title>
+<style>
+.main{
+  width: 940px;
+  margin: auto;
+  margin-top:50px;
+  margin-bottom: 20px;
+  opacity: 0.7;
+}
+  body {
+    color:#666666;
+    font-family: "Georgia", Helvetica, sans-serif;
+    background: url(BG.jpg) ;
+  }
+div {
+  margin-top:20px;
+  margin-bottom: 20px;
+  background-color:black;
+}
+footer{
+  text-align: center;
+  color: #black;
+  margin-top: 150px;
+}
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 8%, rgba(240,239,205,0.520045518207283) 200%) no-repeat;
+    color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  display: inline;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.brand-title {
+    font-size: 1.6rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+     display: inline;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar-links ul #btn-home{
+    border-radius: 15px;
+    background: rgb(107 103 103 / 12%);
+}
+
+a:hover {
+  background-color: grey;
+  border-radius: 15px;
+  color: #d6d85c91;
+}
+
+
+p{ 
+    text-align: center;
+  }
+
+ .about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #black;
+  color: white;
+}
+
+</style>
+  </head>
+
+<body>
+    <header>
+    <nav class="navbar">
+      <h1 class="brand-title">CANVAS</h1>
+    <ul>
+    <li><a href="HOME.html" target="_blank">Home page</a></li>
+    <li><a href="ABOUT.html" target="_blank">About</a></li>
+    <li><a href="CONTACT.html" target="_blank">Contact us</a></li>
+</ul>
+</nav>
+</header>
+  <DIV class="main">
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>store to hlep the young Artiest who want's to sell thier PAINTING.</p>
+  <p>Canvas is the balance between the creativity and commercial</p>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+       <h2>Reliable</h2>
+        We care about create something big and unique people love to use.
+</div>
+    <div class="col-sm-4">
+         <h2>Passionate</h2>
+          We are continuously learning, improving and creating new opportunities for everyone.
+</div>
+    <div class="col-sm-4">
+        <h2>Simple</h2>
+        Our mission is straightforward, we help young artiest make more money with less effort.
+    </div>
+  </div>
+</div>
+</div>
+</DIV>
+<footer>&copy;2021 CANVAS</footer>
+</body>
+</html>
