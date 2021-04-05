@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<tiltle> item </title>
+<style>
+.main{
+  width: 940px;
+  margin: auto;
+  margin-top:20px;
+  margin-bottom: 20px;
+  /*opacity: 0.7;*/
+}
+  body {
+    color:#666666;
+    font-family: "Georgia", Helvetica, sans-serif;
+    background: url(bg.jpg) ;
+  }
+div {
+  margin-top:20px;
+  margin-bottom: 20px;
+  background-color:black;
+}
+ .dis-section {
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+img{
+	float: left;
+
+}
+.pro{
+	position: relative;
+	display: block;
+    margin-left: 500px;
+	text-align: left;
+
+}
+
+.cartimg{
+float:left;
+}
+.Addto{
+	box-sizing: border-box;
+	text-align: center;
+	border: 2px solid white;
+	height: 60px;
+	width: 250px;
+	position: relative;
+    display: block;
+    float:right; 
+    margin: 0px;
+}
+</style>
+</head>
+<body>
+<div class="main">
+<div class="dis-section">	
+	<img src="back.jpg">
+
+	<div class="pro">
+	<h1>city bullding</h1>
+	<h5>By: sara</h5>
+		<h3>Product description</h3>
+			<ul>
+			<li>Brand: Horizon</li>
+			<li>Color: Multi Color</li>
+			<li>Style No: 237HRZ5311</li>
+			<li>Category Type: Photographs</li>
+			<li><strong>SIZE</strong>
+			    <ul>
+			      <li>Lenght: 40 cm </li>
+			      <li>wideth: 70 cm</li>
+			    </ul>
+  			</li>
+			<li>Subject: old bullding </li>
+			<li>Style: Abstract</li>
+		</ul>
+<br>
+<br>
+<img calss="cartimg" src="cart.JPEG" style="height: 70px; width:auto;">
+<div class="Addto">
+	<h4>ADD TO CART</h4>
+</div>
+</div>
+</div>
+</DIV>
+</body>
+</html>
