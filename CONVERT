@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>CONVENTIOR</title>
+<style>
+.main{
+  width: 940px;
+  margin: auto;
+  margin-top:50px;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+  body {
+    color:#666666;
+    font-family: "Georgia", Helvetica, sans-serif;
+    background: url(BG.jpg) ;
+  }
+div {
+  padding: 8px;
+  margin-top:20px;
+  margin-bottom: 20px;
+  background-color:black;
+}
+
+ .about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+<body>
+  <DIV class="main">
+    <script >
+
+function inchesConverter(){
+document.converter.centimeters.value = (document.converter.inches.value *2.54) 
+}
+function centimetersConverter(){
+document.converter.inches.value = (document.converter.centimeters.value /2.54)
+}
+</script>
+  <br><br>
+<h2>measurements convnter</h2>
+<br>
+
+<h3>length convertion</h3>
+<form name="converter">
+inches (in): <input type="text" name="inches" onChange="inchesConverter()">
+centimeters (cm): <input type="text" name="centimeters" onChange="centimetersConverter()"><br />
+</form><br><br>
+</DIV>
+</body>
+</html>
